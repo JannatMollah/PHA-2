@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <title>PH Assignment 2</title>
 </head>
-<body class="w-[1140px] mx-auto">
-    <header class="flex justify-between items-center">
+<body>
+    <header class="flex justify-between items-center w-[1140px] mx-auto">
         <a href="#"><img src="assets/logo.png" alt="Logo" class="w-[135px] h-[82px]"></a>
         <ul class="grid grid-cols-4 font-medium">
             <li><a href="#" class="font-bold">Home</a></li>
@@ -21,7 +21,7 @@
         </ul>
     </header>
     <main>
-        <section class="flex justify-between mt-[75px]">
+        <section class="flex justify-between mt-[75px] w-[1140px] mx-auto">
             <div class="pt-[160px]">
                 <h1 class="font-bold text-[65px]" style="font-family: Noto Serif, serif;">ALWAYS <span class="text-[#E95A08]">FRESH</span><br><span class="text-[#E95A08]">FLOWERS</span></h1>
                 <p class="font-normal text-[22px] text-black/50" style="font-family: Inter, sans-serif;">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
@@ -29,7 +29,7 @@
             <img src="assets/hero-flower.png" alt="Hero Flower Image" class="pt-[106px]">
         </section>
 
-        <section class="mt-[120px]">
+        <section class="mt-[120px] w-[1140px] mx-auto">
             <div class="grid grid-rows-2 gap-[16px] text-center">
                 <h2 class="font-bold text-[50px]" style="font-family: Noto Serif, serif;"><span class="text-[#E95A08]">Our</span> Plants</h2>
                 <p class="font-normal text-[22px] text-black/50" style="font-family: Inter, sans-serif;">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -104,7 +104,7 @@
 
         <img src="assets/trusted-badge.png" alt="Trusted Badge Image" class="w-[286px] h-[286px] absolute left-[475px] top-[2020px] drop-shadow-[-4px_10px_3px_rgba(0,0,0,0.50)]">
 
-        <section class="flex justify-between mt-[210px]">
+        <section class="flex justify-between mt-[210px] w-[1140px] mx-auto">
             <img src="assets/flower-store.png" alt="Flower Store Image" class="w-[540px]">
             <div class="w-[540px]">
                 <h2 class="font-bold text-[50px]" style="font-family: Noto Serif, serif;">Flower & Plants<br>Lover</h2>
@@ -116,23 +116,23 @@
             </div>
         </section>
 
-        <section class="mt-[134px]">
+        <section class="mt-[134px] w-[1140px] mx-auto">
             <div class="grid grid-rows-2 gap-[18px] text-center">
                 <h2 class="font-bold text-[50px]" style="font-family: Noto Serif, serif;"><span class="text-[#E95A08]">Latest</span> Deals</h2>
                 <p class="font-normal text-[22px] text-black/50" style="font-family: Inter, sans-serif;">Indulge your senses with the beauty and fragrance of our fresh flower shop. From<br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
         </section>
 
-        <section class="mt-[120px]">
+        <section class="mt-[120px] w-[1140px] mx-auto">
             <div class="flex justify-between gap-[28px]">
                 <div class="flex flex-col gap-[25px]">
-                    <div class="bg-[url('assets/deal-bloom.png')] w-[367px] h-[201px] rounded-[14px]">
+                    <div class="bg-[url('assets/deal-bloom.png')] w-[367px] h-[201px] rounded-[14px]  bg-center bg-cover overflow-hidden">
                         <div class="flex flex-col justify-center items-center h-[201px] text-white">
                             <h2 class="text-[20px] font-bold" style="font-family: Noto Serif, serif;">60% Off | Bloom Plant</h2>
                             <p class="mt-2 underline font-semibold text-[16px]" style="font-family: Inter, sans-serif;">Shop Now</p>
                         </div>
                     </div>
-                    <div class="bg-[url('assets/deal-ana.png')] w-[367px] h-[201px] rounded-[14px]">
+                    <div class="bg-[url('assets/deal-ana.png')] w-[367px] h-[201px] rounded-[14px] bg-center bg-cover overflow-hidden">
                         <div class="flex flex-col justify-center items-center h-[201px] text-white">
                             <h2 class="text-[20px] font-bold" style="font-family: Noto Serif, serif;">30% Off | Ana Plant</h2>
                             <p class="mt-2 underline font-semibold text-[16px]" style="font-family: Inter, sans-serif;">Shop Now</p>
@@ -140,7 +140,7 @@
                     </div>
                 </div>
 
-                <div class="bg-[url('assets/deal-zabo.png')] w-[853px] h-[420px] rounded-[24px]">
+                <div class="bg-[url('assets/deal-zabo.png')] w-[853px] h-[420px] rounded-[24px]  bg-center bg-cover overflow-hidden">
                     <div class="flex flex-col justify-center items-center h-full text-white">
                         <h2 class="text-[40px] font-bold" style="font-family: Noto Serif, serif;">25% Off | Zabo Plant</h2>
                         <p class="mt-4 underline font-semibold text-[20px]" style="font-family: Inter, sans-serif;">Shop Now</p>
@@ -149,8 +149,16 @@
             </div>
         </section>
 
-        <section>
-            
+        <section class="mt-[120px]">
+            <div class="bg-[url('assets/news-letter-bg.png')] w-full h-[533px] bg-center bg-cover overflow-hidden">
+                <div class="flex flex-col justify-center items-center h-full gap-[23px]">
+                    <h2 class="text-[50px] font-bold text-white" style="font-family: Noto Serif, serif;">Join the colorful Bunch</h2>
+                    <div class="flex justify-center">
+                        <input type="email" placeholder="Write email" class="bg-white px-[20px] py-[8px] w-[644px] h-[50px]">
+                        <button class="w-[186px] h-[50px] px-[50px] py-[8px] bg-[#E95A08] font-semibold text-[16px] text-[#FFFFFF]">Subscribe</button>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
